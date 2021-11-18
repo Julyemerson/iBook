@@ -1,24 +1,8 @@
 $breakpoints: (
-  small: (
-    max-width: 600px,
-  ),
-  medium: (
-    min-width: 600px,
-  )
-  and
-  (
-    max-width: 992px,
-  ),
-  large: (
-    min-width: 992px,
-  )
-  and
-  (
-    max-width: 1200px,
-  ),
-  infinity: (
-    min-width: 1200px,
-  ),
+  small: '(max-width:  600px)',
+  medium: '(min-width: 600px) and (max-width: 992px)',
+  large: '(min-width: 992px) and (max-width: 1200px)',
+  infinity: '(min-width: 1200px)',
 ) !default;
 
 @mixin screen($sizes...) {
