@@ -16,7 +16,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   css: ['normalize.css/normalize.css', '@/assets/scss/base.scss'],
-  plugins: [],
+  plugins: ['@/plugins/accessor'],
   components: [{ path: '@/components', pathPrefix: false }],
   buildModules: ['@nuxt/typescript-build', '@nuxtjs/style-resources'],
   styleResources: {
